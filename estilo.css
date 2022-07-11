@@ -1,0 +1,157 @@
+header {
+    background: #e6edf3ad;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 970px;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+
+nav {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f562b8;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #ffffff;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #f562b8;
+}
+
+.produtos li:active {
+    border-color: rgb(0, 255, 34);
+}
+
+.produtos li:hover h2 {
+    font-size: 40px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imagem-produto {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #e6edf3ad;
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(43, 226, 250);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s backgroud;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: rgb(152, 236, 222);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: rgb(102, 234, 252);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

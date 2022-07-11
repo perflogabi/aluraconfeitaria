@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400;1,900&family=Mingzat&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+body {
+    font-family: 'Mingzat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+header {
+    background: #e6edf3ad;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    font-family: 'Charis SIL', serif;
+    width: 970px;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+
+nav {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f562b8;
+    text-decoration: underline;
+}
+
+.principal {
+    background: #e6edf3ad;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+.titulo-centralizado1,
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Charis SIL', serif;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.titulo-centralizado1,
+h2,
+p {
+    margin: 20px 20px;
+}
+
+.titulo-centralizado,
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Charis SIL', serif;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Charis SIL', serif;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+#imgfundo {
+    width: 100%;
+}
+
+.sobre {
+    background: #ffffff;
+    padding: 20px;
+}
+
+#item {
+    display: inline-block;
+    font-family: 'Charis SIL', serif;
+    line-height: normal;
+    vertical-align: top;
+    font-style: italic;
+    width: 20%;
+    margin-right: 15%;
+    margin-left: 6%;
+}
+
+.imagem3 {
+    width: 50%;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+    background: #e6edf3ad;
+    padding: 40px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 20px 0 0;
+}
